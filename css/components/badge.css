@@ -8,4 +8,15 @@
   width: 25px;
   height: 25px;
   border-radius: 12.5px;
+  left: 15px;
+  bottom: 15px;
+}
+.badge--sm {
+  background-color: tomato;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  left: 35px;
+  bottom: 20px;
+  animation-delay: 1s;
 }
