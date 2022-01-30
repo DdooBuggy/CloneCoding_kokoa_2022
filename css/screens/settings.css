@@ -1,5 +1,5 @@
 .settings__setting {
-  padding: 20px 0;
+  padding: 30px 0;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   font-size: 20px;
   display: flex;
@@ -11,9 +11,25 @@
   margin-right: 20px;
   font-size: 22px;
 }
+.settings__setting-column > span > i {
+  font-size: 15px;
+  color: red;
+  margin-left: 10px;
+}
 .settings__setting-column:last-child {
   opacity: 0.7;
 }
 .alt-header {
   margin-top: 15px;
+}
+.settings-list {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+  padding-bottom: 50px;
+  margin-bottom: 40px;
+}
+.settings-list:last-child {
+  border-bottom: none;
+}
+.settings-list .settings__setting:last-child {
+  border-bottom: none;
 }
